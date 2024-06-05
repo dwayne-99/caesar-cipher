@@ -19,7 +19,7 @@ def caesar(start_text, shift_amount, cipher_direction):
   
   for char in start_text:
     if char in alphabet:
-      position = alphabet.index(letter)
+      position = alphabet.index(char)
 
 # Find the position of the current character in the alphabet list if the user input is a letter of the alphabet
     
